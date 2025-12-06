@@ -8,8 +8,9 @@ This project analyzes the impact of economic events (CPI and Unemployment) on 2-
 
 ## Key Findings
 
-```text
+### CPI Event - Reversion Strategy (2Y)
 
+```text
 ==================== CPI Event - Reversion Strategy (2Y) ====================
 STRATEGY LOGIC:
 1.  Identify Event Bias: Did Actual beat Surveyed?
@@ -49,7 +50,13 @@ TRADE LOG:
 2025-05-13      -1  0.0251
 2025-06-11      -1 -0.0021
 2025-09-11       1 -0.0393
+```
 
+![CPI Performance](cpi_performance.png)
+
+### Unemployment Event - Reversion Strategy (2Y)
+
+```text
 ==================== Unemployment Event - Reversion Strategy (2Y) ====================
 STRATEGY LOGIC:
 1.  Identify Event Bias: Did Actual beat Surveyed?
@@ -92,8 +99,7 @@ TRADE LOG:
 2025-07-03       1 -0.0931
 ```
 
-![Strategy Optimization Comparison](readme_optimization_comparison.png)
-*Figure 2: Impact of filtering for Significant Surprises (>0.1%). The gray line shows the "Unfiltered" strategy (trading every event), which suffers from noise and churn. The colored lines show the "Filtered" strategy, which restores profitability by targeting only high-conviction setups.*
+![Unemployment Performance](unemployment_performance.png)
 
 ## Files Included
 *   `economic_events_analysis.ipynb`: Initial data exploration and visualization of yield behavior around events.

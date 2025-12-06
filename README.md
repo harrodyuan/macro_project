@@ -1,4 +1,7 @@
-# TODO: Review the "Optimization" section in `backtesting.ipynb`.
+# TODO: 
+# 1. Review the `backtesting.ipynb`.
+# 2. research on The Reversion Strategy works best when the Yield Curve is FLAT or INVERTED.
+# 3. 
 
 ## Project Overview
 This project analyzes the impact of economic events (CPI and Unemployment) on 2-Year and 10-Year Treasury Yields. We backtested intraday trading strategies to capitalize on the volatility following these releases.

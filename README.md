@@ -15,8 +15,8 @@ This project analyzes the impact of economic events (CPI and Unemployment) on 2-
     *   Trading every event leads to "churn" and losses on days with small data deviations.
     *   **Solution:** Filtering for **Significant Surprises** (e.g., `|Actual - Surveyed| >= 0.1%`) significantly improves the signal-to-noise ratio and restores profitability.
 
-![Strategy Performance Comparison](readme_strategy_comparison.png)
-*Figure 2: Cumulative PnL of the Reversion Strategy (Filtered) for both CPI and Unemployment events, comparing 2Y and 10Y yields.*
+![Strategy Optimization Comparison](readme_optimization_comparison.png)
+*Figure 2: Impact of filtering for Significant Surprises (>0.1%). The gray line shows the "Unfiltered" strategy (trading every event), which suffers from noise and churn. The colored lines show the "Filtered" strategy, which restores profitability by targeting only high-conviction setups.*
 
 ## Files Included
 *   `economic_events_analysis.ipynb`: Initial data exploration and visualization of yield behavior around events.

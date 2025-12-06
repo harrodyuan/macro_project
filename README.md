@@ -1,4 +1,4 @@
-TODO: Review the "Optimization" section in `backtesting.ipynb`.
+# TODO: Review the "Optimization" section in `backtesting.ipynb`.
 
 ## Project Overview
 This project analyzes the impact of economic events (CPI and Unemployment) on 2-Year and 10-Year Treasury Yields. We backtested intraday trading strategies to capitalize on the volatility following these releases.
